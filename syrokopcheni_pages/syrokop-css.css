@@ -1,0 +1,374 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	background-color: #000000;
+	height: 250px;
+	width: 1920px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 24px;
+	font-family: "Comfortaa";
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+.zamov{
+	text-decoration:none;
+	margin-right: 100px;
+}
+
+.zamov div{
+	width: 400px;
+	height: 100px;
+	background-color: #F7F052;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 80px;
+	display: flex;
+  	justify-content: center;
+    align-items: center;
+    line-height: 100px;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    font-size: 54px;
+    color: #000000;
+}
+
+.zamov div p{
+	text-align: center;
+	margin-left: 75px;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	align-self: center;
+	margin-right: 150px;
+}
+
+.menu li{
+	margin-left: 120px;
+}
+
+.menu li a{
+	color: #F7F0F5;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FFC759;
+}
+
+.logo {
+	height: 215px;
+	width: 215px;
+	margin-left: 100px;
+}
+
+.messangers{
+	display: none;
+	width: 350px;
+	background-color: #F7F0F5;
+	border-radius: 20px;
+	display: flex;
+	list-style: none;
+	margin-right: 100px;
+}
+
+.messangers li a img{
+	width: 60px;
+	height: 60px;
+	margin-left: 24px;
+	margin-top: 5px;
+}
+
+.product{
+	height: 970px;
+	width: 1920px;
+	background-image: url("../photo/f2.jpg");
+	opacity: 0.95;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.txt1{
+	margin-right: : 100px;
+	color: #ffffff;
+	margin-top: 200px;
+	width: 622px;
+	height: 666px;
+	font-family: "Comfortaa";
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 56px;
+	text-align: left;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.zag{
+	color: white;
+	text-align: left;
+	font-size: 45px;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 100px;
+	font-family: "Comfortaa";
+	margin-top: 100px;
+}
+
+.product div div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.product div{
+	display: flex;
+	flex-direction: column;
+}
+
+.product div img{
+	border-radius: 5px;
+	width: 1000px;
+	height: 666px;
+	margin-left: 100px;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 60px
+}
+
+
+
+.footer{
+	background-color: #000000;
+	height: 250px;
+	width: 1920px;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+
+.logo2{
+	height: 215px;
+	width: 215px;
+	margin-left: 100px;
+	margin-top: 18px;
+}
+
+.fot{
+	display: flex;
+	list-style: none;
+}
+
+.fot li ul{
+	list-style: none;
+	margin-left: 50px;
+}
+
+.fot li ul li{
+	margin-top: 10px;
+	text-decoration: none;
+	font-family: "Comfortaa";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fot li ul li a{
+	text-decoration: none;
+	font-family: "Comfortaa";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fot li ul li p{
+	color: #FFC759;
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.for-img{
+	margin-top: 34px;
+	height: 215px;
+	width: 330px;
+}
+
+.messangers-phone{
+	display: none;
+}
+
+@media all and (max-width: 600px){
+.header {
+	background-color: #000000;
+	height: 75px;
+	width: 600px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 24px;
+	font-family: "Comfortaa";
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+.zamov div p{
+	text-align: center;
+	margin-left: 20px;
+}
+
+
+.menu{
+	display: none;
+}
+
+.messangers{
+	display: none;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+
+.phone-menu{
+	display: flex;
+	height: 17px;
+	width: 30px;
+	margin-right:20px;
+}
+
+.product{
+	height: 800px;
+	width: 600px;
+	background-image: url("../photo/f2.jpg");
+	opacity: 0.95;
+	display: row;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.txt1{
+	margin-right: : 100px;
+	color: #ffffff;
+	margin-top: 20px;
+	width: 400px;
+	height: 666px;
+	font-family: "Comfortaa";
+	font-weight: 400;
+	align-self: center;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.zag{
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	font-size: 25px;
+	font-family: "Comfortaa";
+	margin-top: 35px;
+}
+
+.product div{
+	display: flex;
+	flex-direction: column;
+}
+
+.product div img{
+	border-radius: 5px;
+	width: 400px;
+	height: 260px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	margin-top: 20px
+}
+
+
+
+.footer{
+	background-color: #000000;
+	height: 75px;
+	width: 600px;
+	display: flex;/*flex*/
+	justify-content: space-between;
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+
+.logo2{
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.fot{
+	display: none;
+}
+
+.for-img{
+	display: none;
+}
+
+.messangers-phone{
+	display: flex;
+	width: 136px;
+	height: 40px;
+	background-color: #F7F0F5;
+	border-radius: 20px;
+	list-style: none;
+	margin-top: 17px;
+	margin-right: 20px;
+}
+
+.messangers-phone li a img{
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+.zamov{
+	text-decoration:none;
+	margin-left: 20px;
+}
+
+.zamov div{
+	text-decoration: none;
+	width: 130px;
+	height: 50px;
+	background-color: #F7F052;
+	border-radius: 5px;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 40px;
+	display: flex;
+  	justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    font-family: "Comfortaa";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+}
