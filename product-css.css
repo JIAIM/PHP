@@ -1,0 +1,479 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.phon1{
+	background-image: url("photo/f2.jpg");
+	height: 1560px;
+	width: 1920px;
+}
+
+.header {
+	background-color: #000000;
+	height: 250px;
+	width: 1920px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 24px;
+	font-family: "Comfortaa";
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	align-self: center;
+	margin-right: 150px;
+}
+
+.menu li{
+	margin-left: 120px;
+}
+
+.menu li a{
+	color: #F7F0F5;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #FFC759;
+}
+
+.phone-menu{
+	display: none;
+}
+
+.logo {
+	height: 215px;
+	width: 215px;
+	margin-left: 100px;
+}
+
+.messangers{
+	display: none;
+	width: 350px;
+	background-color: #F7F0F5;
+	border-radius: 20px;
+	display: flex;
+	list-style: none;
+	margin-right: 100px;
+}
+
+.messangers li a img{
+	width: 60px;
+	height: 60px;
+	margin-left: 24px;
+	margin-top: 5px;
+}
+
+.product{
+	height: 920px;
+	width: 1920px;
+	background-image: url("photo/f2.jpg");
+	opacity: 0.9;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center; 
+}
+
+.product p{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	display: flex;
+	justify-content: center;
+	font-family: "Comfortaa";
+	margin-top: 100px;
+}
+
+.prod{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.prod a{
+	text-decoration: none;
+}
+
+.prod li{
+	margin: 0 53px;
+}
+
+.prod li div{
+	width: 250px;
+ 	height: 425px;
+  	background-color: #FFC759;
+  	border-radius: 5px;
+}
+
+.prod li div div img{
+	width: 30px;
+	height: 30px;
+}
+
+.prod li div img{
+	width: 250px;
+	height: 352px;
+}
+
+.prod li div div{
+	margin: 0;
+	width: 250px;
+	height: 73px;
+	display: flex;
+	justify-content: center;
+}
+
+.prod li div div div{
+	align-self: center;
+	height: 77px;
+	width: 72px;
+	background-color: #E63946;
+	border-radius: 0 0 5px 0;
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: -5px;
+}
+
+.prod li div div p{
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Comfortaa";
+	width: 178px;
+	height: 72px;
+	margin-top: 0;
+	margin-right: 0
+}
+
+.prod2 {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.prod2 a{
+	text-decoration: none;
+}
+
+.prod2 li{
+	margin: 0 53px;
+}
+
+.prod2 li div{
+	width: 250px;
+ 	height: 425px;
+  	background-color: #FFC759;
+  	border-radius: 5px;
+}
+
+.prod2 li div div img{
+	width: 30px;
+	height: 30px;
+}
+
+.prod2 li div img{
+	width: 250px;
+	height: 352px;
+}
+
+.prod2 li div div{
+	margin: 0;
+	width: 250px;
+	height: 73px;
+	display: flex;
+	justify-content: center;
+}
+
+.prod2 li div div div{
+	align-self: center;
+	height: 77px;
+	width: 72px;
+	background-color: #E63946;
+	border-radius: 0 0 5px 0;
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: -5px;
+}
+
+.prod2 li div div p{
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Comfortaa";
+	width: 178px;
+	height: 72px;
+	margin-top: 0;
+	margin-right: 0
+}
+
+.prod-phone1{
+	display:none;
+}
+
+.footer{
+	background-color: #000000;
+	height: 250px;
+	width: 1920px;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+
+.logo2{
+	height: 215px;
+	width: 215px;
+	margin-left: 100px;
+	margin-top: 18px;
+}
+
+.fot{
+	display: flex;
+	list-style: none;
+}
+
+.fot li ul{
+	list-style: none;
+	margin-left: 50px;
+}
+
+.fot li ul li{
+	margin-top: 10px;
+	text-decoration: none;
+	font-family: "Comfortaa";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fot li ul li a{
+	text-decoration: none;
+	font-family: "Comfortaa";
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.fot li ul li p{
+	color: #FFC759;
+    font-family: "Comfortaa";
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.for-img{
+	margin-top: 34px;
+	height: 215px;
+	width: 330px;
+}
+
+
+.messangers-phone{
+	display: none;
+}
+
+@media all and (max-width: 600px){
+.phon1{
+	background-image: url("photo/f2.jpg");
+	height: 1070px;
+	width: 600px;
+}
+
+.header {
+	background-color: #000000;
+	height: 75px;
+	width: 600px;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 24px;
+	font-family: "Comfortaa";
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+.menu{
+	display: none;
+}
+
+.messangers{
+	display: none;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+}
+
+.phone-menu{
+	display: flex;
+	height: 17px;
+	width: 30px;
+	margin-right:20px;
+}
+
+.product{
+	height: 960px;
+	width: 600px;
+	background-image: url("photo/f2.jpg");
+	opacity: 0.9;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center; 
+}
+
+.product p{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	font-family: "Comfortaa";
+	margin-top: 35px;
+}
+
+.prod{
+	display: none;
+}
+
+.prod2{
+	display: none;
+}
+
+.prod-phone1{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.prod-phone1 a{
+	text-decoration: none;
+	width: 200px;
+}
+
+.prod-phone1 li{
+	margin: 0 47px;
+}
+
+.prod-phone1 li div{
+	width: 120px;
+ 	height: 170px;
+  	background-color: #FFC759;
+  	border-radius: 5px 5px 0 0;
+}
+
+.prod-phone1 li div div img{
+	width: 12px;
+	height: 12px;
+}
+
+.prod-phone1 li div img{
+	width: 120px;
+	height: 170px;
+	border-radius: 5px 5px 0 0;
+}
+
+.prod-phone1 li div div{
+	margin: 0;
+	width: 120px;
+	height: 29px;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 5px 5px;
+}
+
+.prod-phone1 li div div div{
+	align-self: center;
+	height: 29px;
+	width: 29px;
+	background-color: #E63946;
+	border-radius: 0 0 5px 0;
+	display: flex;	
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: 0px;
+}
+
+.prod-phone1 li div div p{
+	color: black;
+	text-align: center;
+	font-size: 9px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Comfortaa";
+	width: 91px;
+	height: 29px;
+	margin-top: 0;
+	margin-right: 0
+}
+
+.footer{
+	background-color: #000000;
+	height: 75px;
+	width: 600px;
+	display: flex;/*flex*/
+	justify-content: space-between;
+	margin:0 auto;
+	max-width: 1920px;
+}
+
+
+.logo2{
+	height: 50px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 13px;
+}
+
+.fot{
+	display: none;
+}
+
+.for-img{
+	display: none;
+}
+
+.messangers-phone{
+	display: flex;
+	width: 136px;
+	height: 40px;
+	background-color: #F7F0F5;
+	border-radius: 20px;
+	list-style: none;
+	margin-top: 17px;
+	margin-right: 20px;
+}
+
+.messangers-phone li a img{
+	width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+}
